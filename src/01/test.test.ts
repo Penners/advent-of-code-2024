@@ -22,7 +22,7 @@ describe("day 1 part 1", () => {
   });
 });
 
-describe("day 2 part 1", () => {
+describe("day 1 part 2", () => {
   const input = fs
     .readFileSync(path.join(__dirname, "example.input.txt"))
     .toString();
