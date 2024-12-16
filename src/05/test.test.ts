@@ -18,14 +18,14 @@ describe("day 5 part 1", () => {
   });
 });
 
-// describe("day 5 part 2", () => {
-//   it("example works", () => {
-//     const result = part2(example2);
-//     expect(result).toBe(9);
-//   });
+describe("day 5 part 2", () => {
+  it("example works", () => {
+    const result = part2(example);
+    expect(result).toBe(123);
+  });
 
-//   it("real implementation works", () => {
-//     const result = part2(input);
-//     expect(result).toBe(1985);
-//   });
-// });
+  it("real implementation works", () => {
+    const result = part2(input);
+    expect(result).toBe(5564);
+  });
+});
