@@ -6,7 +6,7 @@ import { part1, part2 } from "./implementation";
 const example = fs.readFileSync(path.join(__dirname, "example.txt")).toString();
 const input = fs.readFileSync(path.join(__dirname, "input.txt")).toString();
 
-describe("day 4 part 1", () => {
+describe("day 5 part 1", () => {
   it("example works", () => {
     const result = part1(example);
     expect(result).toBe(143);
@@ -18,7 +18,7 @@ describe("day 4 part 1", () => {
   });
 });
 
-// describe("day 4 part 2", () => {
+// describe("day 5 part 2", () => {
 //   it("example works", () => {
 //     const result = part2(example2);
 //     expect(result).toBe(9);
